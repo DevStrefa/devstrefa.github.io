@@ -111,8 +111,8 @@
 				<b>Author:</b>
 				Cichy <a href="&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#x64;&#51;&#117;t&#x33;&#x72;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;o&#x6d;">&#x64;&#51;&#117;t&#x33;&#x72;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;o&#x6d;</a><br>
 				<b>Version:</b>
-				1.0.0<br>
-			<b>Located at</b> <a href="source-class-DevStrefa.Esemeser.Esemeser.html#5-227" title="Go to source code">src/DevStrefa/Esemeser/Esemeser.php</a>
+				1.1.0<br>
+			<b>Located at</b> <a href="source-class-DevStrefa.Esemeser.Esemeser.html#5-266" title="Go to source code">src/DevStrefa/Esemeser/Esemeser.php</a>
 		<br>
 	</div>
 
@@ -132,7 +132,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#33-53" title="Go to source code">__construct</a>( <span>string <var>$account</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$login</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$password</var> = <span class="php-keyword1">null</span></span> )</code>
+			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#34-58" title="Go to source code">__construct</a>( <span>string <var>$account</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$login</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$password</var> = <span class="php-keyword1">null</span></span> )</code>
 
 			<div class="description short">
 				<p>Class Constructor</p>
@@ -159,6 +159,44 @@
 			</div>
 			</div></td>
 		</tr>
+		<tr data-order="setRequestMethod" id="_setRequestMethod">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setRequestMethod">#</a>
+			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#60-70" title="Go to source code">setRequestMethod</a>( <span> <var>$requestMethod</var></span> )</code>
+
+			<div class="description short">
+				<p>Set mechanism used to make requests to API (Allowed values: fgc OR curl) file_get_contents is default</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set mechanism used to make requests to API (Allowed values: fgc OR curl) file_get_contents is default</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$requestMethod</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+					<h4>Throws</h4>
+					<div class="list">
+						InvalidArgumentException<br><em>Exception is thrown when invalud request method is provided as argument</em>
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
 		<tr data-order="checkBalance" id="_checkBalance">
 
 			<td class="attributes"><code>
@@ -170,7 +208,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_checkBalance">#</a>
-			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#55-105" title="Go to source code">checkBalance</a>( <span>string <var>$messageType</var> = <span class="php-keyword1">null</span></span> )</code>
+			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#94-144" title="Go to source code">checkBalance</a>( <span>string <var>$messageType</var> = <span class="php-keyword1">null</span></span> )</code>
 
 			<div class="description short">
 				<p>Method returns number of possible to send messages of given type</p>
@@ -213,7 +251,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_send">#</a>
-			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#107-161" title="Go to source code">send</a>( <span><code><a href="class-DevStrefa.Esemeser.Message.html">DevStrefa\Esemeser\Message</a></code> <var>$message</var></span> )</code>
+			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#146-200" title="Go to source code">send</a>( <span><code><a href="class-DevStrefa.Esemeser.Message.html">DevStrefa\Esemeser\Message</a></code> <var>$message</var></span> )</code>
 
 			<div class="description short">
 				<p>Method will send given message</p>
@@ -255,7 +293,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getAccount">#</a>
-			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#163-170" title="Go to source code">getAccount</a>( )</code>
+			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#202-209" title="Go to source code">getAccount</a>( )</code>
 
 			<div class="description short">
 				<p>Method returns account name</p>
@@ -288,7 +326,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_setAccount">#</a>
-			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#172-181" title="Go to source code">setAccount</a>( <span>string <var>$account</var></span> )</code>
+			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#211-220" title="Go to source code">setAccount</a>( <span>string <var>$account</var></span> )</code>
 
 			<div class="description short">
 				<p>Method for setting account name</p>
@@ -326,7 +364,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getLogin">#</a>
-			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#183-190" title="Go to source code">getLogin</a>( )</code>
+			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#222-229" title="Go to source code">getLogin</a>( )</code>
 
 			<div class="description short">
 				<p>Method returns account login</p>
@@ -359,7 +397,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_setLogin">#</a>
-			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#192-201" title="Go to source code">setLogin</a>( <span>string <var>$login</var></span> )</code>
+			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#231-240" title="Go to source code">setLogin</a>( <span>string <var>$login</var></span> )</code>
 
 			<div class="description short">
 				<p>Method for setting login to account</p>
@@ -397,7 +435,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getPassword">#</a>
-			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#203-210" title="Go to source code">getPassword</a>( )</code>
+			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#242-249" title="Go to source code">getPassword</a>( )</code>
 
 			<div class="description short">
 				<p>Method return password</p>
@@ -430,7 +468,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_setPassword">#</a>
-			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#212-221" title="Go to source code">setPassword</a>( <span>string <var>$password</var></span> )</code>
+			<code><a href="source-class-DevStrefa.Esemeser.Esemeser.html#251-260" title="Go to source code">setPassword</a>( <span>string <var>$password</var></span> )</code>
 
 			<div class="description short">
 				<p>Method for setting password to account</p>
